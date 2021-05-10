@@ -1,0 +1,22 @@
+type: ul
+attribute:
+  class: 'list-unstyled CTAs'
+innerHTML:
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: 'https://bootstrapious.com/tutorial/files/sidebar.zip'
+          class: download
+        innerHTML: 'Download source'
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: 'https://bootstrapious.com/p/bootstrap-sidebar'
+          class: article
+        innerHTML: 'Back to article'

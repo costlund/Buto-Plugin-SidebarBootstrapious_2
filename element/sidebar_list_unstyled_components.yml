@@ -1,0 +1,115 @@
+type: ul
+attribute:
+  class: 'list-unstyled components'
+innerHTML:
+  -
+    type: p
+    innerHTML: 'Dummy Heading'
+  -
+    type: li
+    attribute:
+      class: active
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: '#homeSubmenu'
+          data-toggle: collapse
+          aria-expanded: 'false'
+          class: dropdown-toggle
+        innerHTML: Home
+      -
+        type: ul
+        attribute:
+          class: 'collapse list-unstyled'
+          id: homeSubmenu
+        innerHTML:
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Home 1'
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Home 2'
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Home 3'
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: '#'
+        innerHTML: About
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: '#pageSubmenu'
+          data-toggle: collapse
+          aria-expanded: 'false'
+          class: dropdown-toggle
+        innerHTML: Pages
+      -
+        type: ul
+        attribute:
+          class: 'collapse list-unstyled'
+          id: pageSubmenu
+        innerHTML:
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Page 1'
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Page 2'
+          -
+            type: li
+            innerHTML:
+              -
+                type: a
+                attribute:
+                  href: '#'
+                innerHTML: 'Page 3'
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: '#'
+        innerHTML: Portfolio
+  -
+    type: li
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: '#'
+        innerHTML: Contact

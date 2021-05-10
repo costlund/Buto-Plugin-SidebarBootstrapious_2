@@ -1,0 +1,136 @@
+-
+  type: nav
+  attribute:
+    class: 'navbar navbar-expand-lg navbar-light bg-light'
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: container-fluid
+      innerHTML:
+        -
+          type: button
+          attribute:
+            type: button
+            id: sidebarCollapse
+            class: 'btn btn-info'
+          innerHTML:
+            -
+              type: widget
+              data:
+                plugin: 'icons/octicons'
+                method: svg
+                data:
+                  name: three-bars
+        -
+          type: button
+          attribute:
+            class: 'btn btn-light d-inline-block d-lg-none ml-auto'
+            type: button
+            data-toggle: collapse
+            data-target: '#navbarSupportedContent'
+            aria-controls: navbarSupportedContent
+            aria-expanded: 'false'
+            aria-label: 'Toggle navigation'
+          innerHTML:
+            -
+              type: widget
+              data:
+                plugin: 'icons/octicons'
+                method: svg
+                data:
+                  name: three-bars
+        -
+          type: div
+          attribute:
+            class: 'collapse navbar-collapse'
+            id: navbarSupportedContent
+          innerHTML:
+            -
+              type: ul
+              attribute:
+                class: 'nav navbar-nav ml-auto'
+              innerHTML:
+                -
+                  type: li
+                  attribute:
+                    class: 'nav-item active'
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        class: nav-link
+                        href: '#'
+                      innerHTML: Page
+                -
+                  type: li
+                  attribute:
+                    class: nav-item
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        class: nav-link
+                        href: '#'
+                      innerHTML: Page
+                -
+                  type: li
+                  attribute:
+                    class: nav-item
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        class: nav-link
+                        href: '#'
+                      innerHTML: Page
+                -
+                  type: li
+                  attribute:
+                    class: nav-item
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        class: nav-link
+                        href: '#'
+                      innerHTML: Page
+-
+  type: h2
+  innerHTML: 'Collapsible Sidebar Using Bootstrap 4'
+-
+  type: p
+  innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+-
+  type: p
+  innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+-
+  type: div
+  attribute:
+    class: line
+-
+  type: h2
+  innerHTML: 'Lorem Ipsum Dolor'
+-
+  type: p
+  innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+-
+  type: div
+  attribute:
+    class: line
+-
+  type: h2
+  innerHTML: 'Lorem Ipsum Dolor'
+-
+  type: p
+  innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+-
+  type: div
+  attribute:
+    class: line
+-
+  type: h3
+  innerHTML: 'Lorem Ipsum Dolor'
+-
+  type: p
+  innerHTML: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'

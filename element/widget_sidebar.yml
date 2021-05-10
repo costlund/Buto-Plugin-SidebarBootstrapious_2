@@ -1,0 +1,15 @@
+-
+  type: div
+  attribute:
+    class: wrapper
+  innerHTML:
+    -
+      type: nav
+      attribute:
+        id: sidebar
+      innerHTML: rs:item
+    -
+      type: div
+      attribute:
+        id: content
+      innerHTML: rs:content

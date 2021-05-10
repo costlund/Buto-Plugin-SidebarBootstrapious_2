@@ -1,0 +1,7 @@
+type: div
+attribute:
+  class: sidebar-header
+innerHTML:
+  -
+    type: h3
+    innerHTML: 'Bootstrap Sidebar'

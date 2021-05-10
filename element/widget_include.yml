@@ -1,0 +1,20 @@
+-
+  type: widget
+  data:
+    plugin: 'wf/embed'
+    method: embed
+    data:
+      type: style
+      file: 
+        - '/plugin/sidebar/bootstrapious_2/css/style2.css'
+        - '/plugin/sidebar/bootstrapious_2/css/mCustomScrollbar.min.css'
+-
+  type: widget
+  data:
+    plugin: 'wf/embed'
+    method: embed
+    data:
+      type: script
+      file: 
+        - '/plugin/sidebar/bootstrapious_2/js/mCustomScrollbar.concat.min.js'
+        - '/plugin/sidebar/bootstrapious_2/js/PluginSidebarBootstrapious_2.js'
