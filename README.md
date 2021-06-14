@@ -75,6 +75,23 @@ This is running before item and content are set.
       method: method_example
 ```
 
+### Display
+One could hide on start.
+```
+    wrapper:
+      display: 'none'
+```
+
+### Collapse
+One could handle datatables when click on collapse button
+```
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+      $('.dataTable').css('width', '100%');
+    });
+});            
+```
+
 ## Files
 This files are included.
 ```

@@ -1,5 +1,9 @@
-version: 1.0.0
+version: 1.0.1
 history:
+  1.0.1:
+    date: '2021-06-14'
+    title: 'Wrapper'
+    description: 'One could hide wrapper to prevent visibility at start.'
   1.0.0:
     date: '2021-05-10'
     title: 'First version'

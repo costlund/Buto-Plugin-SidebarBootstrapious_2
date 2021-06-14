@@ -2,6 +2,9 @@
   type: div
   attribute:
     class: wrapper
+    id: sidebar_wrapper
+    style:
+      display: wrapper:display
   innerHTML:
     -
       type: nav
