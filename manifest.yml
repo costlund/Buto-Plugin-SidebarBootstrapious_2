@@ -1,8 +1,12 @@
-version: 1.0.1
+version: 1.0.2
 history:
+  1.0.2:
+    date: '2022-06-07'
+    title: Versions
+    description: 'Versions update.'
   1.0.1:
     date: '2021-06-14'
-    title: 'Wrapper'
+    title: Wrapper
     description: 'One could hide wrapper to prevent visibility at start.'
   1.0.0:
     date: '2021-05-10'
@@ -11,10 +15,10 @@ history:
 plugin:
   -
     name: wf/array
-    version: 1.2.0
+    version: 1.2.3
   -
     name: wf/yml
-    version: 1.3.0
+    version: 1.4.0
 sys:
   -
     name: mercury
